@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C423459A250814B5006F210D /* AllInformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4234599250814B5006F210D /* AllInformationTableViewController.swift */; };
 		C4407AD42507BEEE000C623D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4407AD32507BEEE000C623D /* AppDelegate.swift */; };
 		C4407AD62507BEEE000C623D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4407AD52507BEEE000C623D /* SceneDelegate.swift */; };
 		C4407ADB2507BEEE000C623D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4407AD92507BEEE000C623D /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4234599250814B5006F210D /* AllInformationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInformationTableViewController.swift; sourceTree = "<group>"; };
 		C4407AD02507BEEE000C623D /* ListOfContactsTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfContactsTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4407AD32507BEEE000C623D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4407AD52507BEEE000C623D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				C4407AD52507BEEE000C623D /* SceneDelegate.swift */,
 				C4407AE72507C016000C623D /* PersonsListViewController.swift */,
 				C4B0CE632507D66E00D03DE6 /* PersonDetailsViewController.swift */,
+				C4234599250814B5006F210D /* AllInformationTableViewController.swift */,
 				C4407AD92507BEEE000C623D /* Main.storyboard */,
 				C4407AE92507C175000C623D /* Person.swift */,
 				C4407ADC2507BEF1000C623D /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				C4B0CE642507D66E00D03DE6 /* PersonDetailsViewController.swift in Sources */,
 				C4407AD42507BEEE000C623D /* AppDelegate.swift in Sources */,
+				C423459A250814B5006F210D /* AllInformationTableViewController.swift in Sources */,
 				C4407AE82507C016000C623D /* PersonsListViewController.swift in Sources */,
 				C4407AEA2507C175000C623D /* Person.swift in Sources */,
 				C4407AD62507BEEE000C623D /* SceneDelegate.swift in Sources */,
