@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40DF6CF250972940049DEF7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DF6CE250972940049DEF7 /* DataManager.swift */; };
 		C423459A250814B5006F210D /* AllInformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4234599250814B5006F210D /* AllInformationTableViewController.swift */; };
 		C4407AD42507BEEE000C623D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4407AD32507BEEE000C623D /* AppDelegate.swift */; };
 		C4407AD62507BEEE000C623D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4407AD52507BEEE000C623D /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C40DF6CE250972940049DEF7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		C4234599250814B5006F210D /* AllInformationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInformationTableViewController.swift; sourceTree = "<group>"; };
 		C4407AD02507BEEE000C623D /* ListOfContactsTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfContactsTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4407AD32507BEEE000C623D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C40DF6D0250972AF0049DEF7 /* Supporting Documents */ = {
+			isa = PBXGroup;
+			children = (
+				C4407AD32507BEEE000C623D /* AppDelegate.swift */,
+				C4407AD52507BEEE000C623D /* SceneDelegate.swift */,
+			);
+			path = "Supporting Documents";
+			sourceTree = "<group>";
+		};
+		C40DF6D1250972CB0049DEF7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4407AE72507C016000C623D /* PersonsListViewController.swift */,
+				C4B0CE632507D66E00D03DE6 /* PersonDetailsViewController.swift */,
+				C4234599250814B5006F210D /* AllInformationTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C40DF6D2250972E90049DEF7 /* DataManager and Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4407AE92507C175000C623D /* Person.swift */,
+				C40DF6CE250972940049DEF7 /* DataManager.swift */,
+			);
+			path = "DataManager and Model";
+			sourceTree = "<group>";
+		};
 		C4407AC72507BEEE000C623D = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +92,10 @@
 		C4407AD22507BEEE000C623D /* ListOfContactsTwo */ = {
 			isa = PBXGroup;
 			children = (
-				C4407AD32507BEEE000C623D /* AppDelegate.swift */,
-				C4407AD52507BEEE000C623D /* SceneDelegate.swift */,
-				C4407AE72507C016000C623D /* PersonsListViewController.swift */,
-				C4B0CE632507D66E00D03DE6 /* PersonDetailsViewController.swift */,
-				C4234599250814B5006F210D /* AllInformationTableViewController.swift */,
+				C40DF6D1250972CB0049DEF7 /* ViewControllers */,
+				C40DF6D2250972E90049DEF7 /* DataManager and Model */,
+				C40DF6D0250972AF0049DEF7 /* Supporting Documents */,
 				C4407AD92507BEEE000C623D /* Main.storyboard */,
-				C4407AE92507C175000C623D /* Person.swift */,
 				C4407ADC2507BEF1000C623D /* Assets.xcassets */,
 				C4407ADE2507BEF1000C623D /* LaunchScreen.storyboard */,
 				C4407AE12507BEF1000C623D /* Info.plist */,
@@ -150,6 +177,7 @@
 				C4B0CE642507D66E00D03DE6 /* PersonDetailsViewController.swift in Sources */,
 				C4407AD42507BEEE000C623D /* AppDelegate.swift in Sources */,
 				C423459A250814B5006F210D /* AllInformationTableViewController.swift in Sources */,
+				C40DF6CF250972940049DEF7 /* DataManager.swift in Sources */,
 				C4407AE82507C016000C623D /* PersonsListViewController.swift in Sources */,
 				C4407AEA2507C175000C623D /* Person.swift in Sources */,
 				C4407AD62507BEEE000C623D /* SceneDelegate.swift in Sources */,

@@ -107,6 +107,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="EDY-bS-UEZ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AGf-rm-Jtf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -148,11 +149,11 @@
             </objects>
             <point key="canvasLocation" x="1221" y="1207"/>
         </scene>
-        <!--Person-->
+        <!--Contacts-->
         <scene sceneID="DfC-3o-Wa7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lO8-Zu-PPs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Person" image="person.circle.fill" catalog="system" id="qg3-Sr-4ZL"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person.circle.fill" catalog="system" id="qg3-Sr-4ZL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="4j8-pj-Plr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>

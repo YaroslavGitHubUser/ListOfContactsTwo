@@ -25,13 +25,15 @@ class AllInformationTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "allInformation", for: indexPath)
         let person = persons[indexPath.section]
-        if indexPath.row % 2 == 0 {
+        
+        if indexPath.row == 0 {
             cell.textLabel?.text = person.phoneNumber
             cell.imageView?.image = UIImage(systemName: "phone")
         } else {
             cell.textLabel?.text = person.email
             cell.imageView?.image = UIImage(systemName: "tray")
         }
+        
         return cell
     }
     
