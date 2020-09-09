@@ -20,7 +20,6 @@ struct Person {
     }
 }
 
-
 class DataManager {
     let names: [String] = ["William", "James", "Charlie", "Oliver", "Oscar",
                            "Thomas"]
